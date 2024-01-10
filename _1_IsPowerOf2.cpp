@@ -1,35 +1,32 @@
-// to check the given number is power of 2 or not 
+// to check the given number is power of 2 or not
 
-#include<iostream> 
+#include <iostream>
 
-
-using namespace std; 
+using namespace std;
 
 bool isPowerOfTwo(int n)
 {
 
-    
-    while(n>1)
+    while (n > 1)
     {
-        if(n%2 !=0)
+        if (n % 2 != 0)
         {
-            return false; 
+            return false;
         }
-         n/=2; 
+        n /= 2;
     }
 
-    return true; 
+    return true;
 }
 
 int main()
 {
 
-    int n; 
-    cout<<"Enter the number :"; 
-    cin>>n; 
+    int n;
+    cout << "Enter the number :";
+    cin >> n;
 
-    cout<<"\nResult : "<<(isPowerOfTwo(n)==1 ? "TRUE": "FALSE"); 
+    cout << "\nResult : " << (isPowerOfTwo(n) == 1 ? "TRUE" : "FALSE");
 
-
-    return 0; 
+    return 0;
 }
