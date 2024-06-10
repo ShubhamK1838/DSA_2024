@@ -2,5 +2,6 @@
     "files.associations": {
         "iostream": "cpp",
         "cmath": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": "d:\\copydata\\MinGW\\bin\\g++.exe"
 }

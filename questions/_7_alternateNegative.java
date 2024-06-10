@@ -6,6 +6,7 @@
 class Solution {
     void rearrange(int arr[], int n) {
        
+
        int pos[]=new int[n],np=0; 
        int neg[]=new int[n],nn=0; 
        
@@ -16,6 +17,8 @@ class Solution {
             else
                 neg[nn++]=arr[i];
         }
+
+
 	    
 	    int c1=0, c2=0; 
 	    int i=0;

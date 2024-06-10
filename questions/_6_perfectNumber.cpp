@@ -5,7 +5,7 @@ using namespace std;
 
 main()
 {
-
+    
 
     int fact_sum=0; 
     int number; 
